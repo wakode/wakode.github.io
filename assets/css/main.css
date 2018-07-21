@@ -64,10 +64,10 @@ input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-.myimage {
-	width="15%";
-	float: left;
-    padding: 0 20px 20px 0;
+img.myimage {
+    width: 175px;
+    float: right;
+    padding: 11px 20px 10px 20px;
 }
 input, select, textarea {
 	-moz-appearance: none;
@@ -177,6 +177,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font: -webkit-small-control !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
